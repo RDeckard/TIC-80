@@ -35,6 +35,11 @@ When editing source files:
 6. `.agents-memory/` is a living workspace and may be amended, corrected, expanded, and reorganized over time.
 7. Never store secrets, tokens, credentials, or sensitive data in `.agents-memory/`.
 
+### Tracking Scope Guardrails
+- Do not create task/backlog/session records for routine administrative actions that do not advance the project directly.
+- Examples of actions to skip: simple status checks, folder/file listing, reading existing memory to decide next steps, and informal checkpoint replies.
+- Create tracking records only when there is concrete project progress (code/doc changes, actionable triage, issue/PR follow-up, or non-trivial technical decisions).
+
 ## Tracking Workflow
 1. Review backlog and active tasks.
 2. Create/update the active task file (scope, plan, status, links).
