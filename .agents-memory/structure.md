@@ -16,12 +16,16 @@ It must always reflect the actual directory structure exactly.
 │   ├── README.md                 # Session logging rules
 │   └── 2026-03-02-bootstrap.md   # Bootstrap session note
 │   └── 2026-03-02-todo-and-quickwins-planning.md # TODO/quick-win planning update
+│   └── 2026-03-02-2478-implementation.md # #2478 implementation session log
+│   └── 2026-03-02-pr-description-format-guideline.md # PR description format guideline session log
 ├── tasks/
 │   ├── active/
 │   │   ├── README.md             # In-progress tasks
 │   │   └── TASK-20260302-quickwins-attack-order.md # Ordered execution plan
 │   ├── done/
-│   │   └── README.md             # Completed tasks
+│   │   ├── README.md             # Completed tasks
+│   │   └── TASK-20260302-2478-remap-docs-cross-surface.md # Completed #2478 doc task
+│   │   └── TASK-20260302-pr-description-format-guideline.md # Completed PR description format task
 │   ├── blocked/
 │   │   └── README.md             # Blocked tasks
 │   └── templates/
@@ -30,6 +34,7 @@ It must always reflect the actual directory structure exactly.
 ├── decisions/
 │   ├── README.md                 # Decision log rules/index
 │   └── DEC-20260302-quickwin-selection-and-contributor-constraints.md # Quick-win decision record
+│   └── DEC-20260302-2478-documentation-scope-and-style.md # #2478 doc surface and style decision
 └── references/
     ├── README.md                 # Useful links/docs/context
     └── project-1.2-view1-todo-snapshot-2026-03-02.md # Snapshot of 24 TODO items

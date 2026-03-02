@@ -27,7 +27,7 @@ Define a low-risk, high-throughput order of execution for quick wins, while resp
 3. Move to medium enhancement scope.
 
 ## Execution
-- [ ] Wave 1A: `#2478` Document `map` remap callback differences across language bindings.
+- [x] Wave 1A: `#2478` Document `map` remap callback differences across language bindings. See `../done/TASK-20260302-2478-remap-docs-cross-surface.md`.
 - [ ] Wave 1B: `#2480` Fix Caps Lock handling for A-F volume/hex input in music editor.
 - [ ] Wave 2: `#2439` Fix Android `Ctrl+S` adding extra `s`.
 - [ ] Wave 3: `#2292` Fix Android arrow keys from external/Bluetooth keyboard.
@@ -46,4 +46,3 @@ Execution order prepared and linked to backlog/decision records.
 - Track progress per wave in this file.
 - Create focused implementation tasks if parallel work starts.
 - If maintainers grant project permissions later, revisit board hygiene item (`#2584`) directly.
-

@@ -44,3 +44,9 @@ When editing source files:
 - update backlog
 - add a session summary in `sessions/`
 - verify `structure.md` is accurate.
+
+## PR Description Format
+When asked to write a PR description, keep it brief and use exactly these sections:
+- `Why`
+- `What`
+- `Impact` (only if there is a meaningful impact to call out)

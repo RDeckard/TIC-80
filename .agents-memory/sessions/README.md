@@ -14,3 +14,5 @@ This directory stores session summaries to preserve context.
 ## Current Files
 - `2026-03-02-bootstrap.md`: memory bootstrap.
 - `2026-03-02-todo-and-quickwins-planning.md`: TODO snapshot + quick-win planning setup.
+- `2026-03-02-2478-implementation.md`: implementation log for issue `#2478`.
+- `2026-03-02-pr-description-format-guideline.md`: session log for PR description format standardization.
