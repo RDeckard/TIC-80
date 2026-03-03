@@ -1,6 +1,6 @@
 # Active Tasks
 
-This directory contains task files currently in progress.
+This directory contains in-progress task files (hot context).
 
 ## Rules
 - Use template: `../templates/task-template.md`.
@@ -8,6 +8,4 @@ This directory contains task files currently in progress.
 - Update status continuously as work progresses.
 - When completed: move to `../done/`.
 - When blocked: move to `../blocked/`.
-
-## Current Files
-- `TASK-20260302-quickwins-attack-order.md`: ordered quick-win execution plan for project 1.2 TODOs.
+- Link each task to a wave in `../../indexes/wave-index.md`.

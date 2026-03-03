@@ -4,9 +4,11 @@
 - ID:
 - Status: `active|done|blocked`
 - Priority: `high|medium|low`
+- Wave:
 - Created:
 - Updated:
 - Links (issue/PR/commit):
+ - Depends-On:
 
 ## Context
 

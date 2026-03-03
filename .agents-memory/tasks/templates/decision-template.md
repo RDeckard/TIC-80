@@ -3,6 +3,8 @@
 ## Context
 
 ## Decision
+- Scope: `wave|core`
+- Promote-to-core: `yes|no`
 
 ## Rationale
 

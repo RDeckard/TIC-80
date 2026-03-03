@@ -17,6 +17,25 @@ Mandatory reference file:
 
 It defines the current layout, each file/directory purpose, and maintenance rules.
 
+### Memory Loading Policy (Hot/Core/Cold)
+Default load at the start of each conversation:
+1. `.agents-memory/structure.md`
+2. `.agents-memory/core/loader.md`
+3. `.agents-memory/backlog.md`
+4. all files in `.agents-memory/tasks/active/` (except optional `README.md`)
+
+Do not auto-load:
+- `.agents-memory/tasks/done/`
+- `.agents-memory/decisions/`
+- `.agents-memory/sessions/`
+- `.agents-memory/references/`
+
+Load cold files only when linked from hot/core/index files.
+
+### Memory Language and Style
+- All `.md` files under `.agents-memory/` must be in English.
+- Keep memory notes concise and decision-focused.
+
 ## Code Style and Comment Policy
 When editing source files:
 1. Follow the existing code style in the touched file (formatting, naming, patterns).
@@ -49,6 +68,13 @@ When editing source files:
 - update backlog
 - add a session summary in `sessions/`
 - verify `structure.md` is accurate.
+
+### Wave Closure Rule
+A wave is considered closed when:
+1. all wave tasks are `done` or `blocked`
+2. related PR(s) are open/ready
+
+Do not wait for upstream merge to close a wave.
 
 ## PR Description Format
 When asked to write a PR description, keep it brief and use exactly these sections:

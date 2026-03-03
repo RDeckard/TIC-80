@@ -12,6 +12,9 @@ Last updated: 2026-03-03
 | BL-0004 | Evaluate/implement `#2392` (`help version` language/runtime versions) | Medium | Done | `#2392` done in `tasks/done/TASK-20260303-2392-help-version-language-runtimes.md` |
 | BL-0005 | Track board hygiene mismatch for `#2584` (closed issue in TODO) | Medium | Blocked (permissions) | We cannot move board items as external contributors |
 | BL-0006 | Standardize PR description format (`Why`/`What`/`Impact`) in `AGENTS.md` | Low | Done | See `tasks/done/TASK-20260302-pr-description-format-guideline.md` |
+| BL-0007 | Execute next quick-win wave (`#2437`) | High | Open | Tracked by `tasks/active/TASK-20260303-2437-music-preview-mute-channel.md` |
+| BL-0008 | Queue follow-up quick wins (`#2388` then `#2301`) | Medium | Open | Order recorded in `tasks/active/TASK-20260302-quickwins-attack-order.md` |
+| BL-0009 | Implement memory governance v2 (hot/core/cold + indexes) | High | Done | `tasks/done/TASK-20260303-memory-governance-hot-core-cold.md` |
 
 ## Rules
 - Keep this list short and actionable.

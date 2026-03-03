@@ -5,51 +5,42 @@ Owner: agent
 
 ## Role of This File
 `structure.md` is the master index of `.agents-memory/`.
-It must always reflect the actual directory structure exactly.
+It defines what is loaded by default and where cold history lives.
+
+## Load Contract
+Default load order:
+1. `structure.md`
+2. `core/loader.md`
+3. `backlog.md`
+4. all files in `tasks/active/` (except optional `README.md`)
+
+Do not auto-load:
+- `tasks/done/`
+- `decisions/`
+- `sessions/`
+- `references/`
+
+Use `indexes/wave-index.md` and `indexes/cold-manifest.md` to fetch cold context on demand.
 
 ## Tree and Roles
 ```text
 .agents-memory/
-├── structure.md                  # Master index (mandatory, always up to date)
-├── backlog.md                    # Short view of prioritized topics/tasks
-├── sessions/
-│   ├── README.md                 # Session logging rules
-│   └── 2026-03-02-bootstrap.md   # Bootstrap session note
-│   └── 2026-03-02-todo-and-quickwins-planning.md # TODO/quick-win planning update
-│   └── 2026-03-02-2478-implementation.md # #2478 implementation session log
-│   └── 2026-03-02-pr-description-format-guideline.md # PR description format guideline session log
-│   └── 2026-03-03-2480-implementation.md # #2480 implementation session log
-│   └── 2026-03-03-2439-implementation.md # #2439 implementation session log
-│   └── 2026-03-03-2292-implementation.md # #2292 implementation session log
-│   └── 2026-03-03-2392-implementation.md # #2392 implementation session log
+├── structure.md                  # Master index and load contract
+├── backlog.md                    # Prioritized topics/tasks
+├── core/
+│   ├── README.md                 # Rules for transverse memory
+│   └── loader.md                 # Always-loaded core facts and pointers
+├── indexes/
+│   ├── wave-index.md             # Wave -> issue -> file map
+│   └── cold-manifest.md          # Inventory of cold files
 ├── tasks/
-│   ├── active/
-│   │   ├── README.md             # In-progress tasks
-│   │   └── TASK-20260302-quickwins-attack-order.md # Ordered execution plan
-│   ├── done/
-│   │   ├── README.md             # Completed tasks
-│   │   └── TASK-20260302-2478-remap-docs-cross-surface.md # Completed #2478 doc task
-│   │   └── TASK-20260302-pr-description-format-guideline.md # Completed PR description format task
-│   │   └── TASK-20260303-2480-capslock-music-hex.md # Completed #2480 music editor fix
-│   │   └── TASK-20260303-2439-android-ctrl-shortcut-text-guard.md # Completed #2439 Ctrl-shortcut text guard
-│   │   └── TASK-20260303-2292-android-arrow-keys-routing.md # Completed #2292 Android keyboard arrow routing fix
-│   │   └── TASK-20260303-2392-help-version-language-runtimes.md # Completed #2392 help version runtime enhancement
-│   ├── blocked/
-│   │   └── README.md             # Blocked tasks
-│   └── templates/
-│       ├── task-template.md      # Task file template
-│       └── decision-template.md  # Technical decision template
-├── decisions/
-│   ├── README.md                 # Decision log rules/index
-│   └── DEC-20260302-quickwin-selection-and-contributor-constraints.md # Quick-win decision record
-│   └── DEC-20260302-2478-documentation-scope-and-style.md # #2478 doc surface and style decision
-│   └── DEC-20260303-2480-localized-music-hex-fix.md # #2480 localized fix decision
-│   └── DEC-20260303-2439-ctrl-shortcut-text-guard.md # #2439 shortcut/text separation decision
-│   └── DEC-20260303-2292-android-keyboard-vs-joystick-classification.md # #2292 Android keyboard/joystick classification decision
-│   └── DEC-20260303-2392-help-version-runtime-mapping.md # #2392 help version runtime mapping decision
-└── references/
-    ├── README.md                 # Useful links/docs/context
-    └── project-1.2-view1-todo-snapshot-2026-03-02.md # Snapshot of 24 TODO items
+│   ├── active/                   # Current execution context (hot)
+│   ├── done/                     # Completed tasks (cold)
+│   ├── blocked/                  # Blocked tasks (cold)
+│   └── templates/                # Task/decision templates
+├── decisions/                    # Non-trivial decisions (cold)
+├── sessions/                     # Session logs (cold)
+└── references/                   # External/source snapshots (cold)
 ```
 
 ## Naming Conventions
@@ -59,18 +50,19 @@ It must always reflect the actual directory structure exactly.
 
 ## Maintenance Contract (Mandatory)
 1. Read this file before structural changes.
-2. If any file/folder is added/removed/renamed/moved, update this tree and relevant sections immediately.
-3. If a convention changes, document the new convention here.
-4. Do not leave any mismatch between filesystem reality and this document.
+2. If any file/folder is added/removed/renamed/moved, update this file in the same change.
+3. Keep this file concise; use indexes for cold-file details.
+4. Keep `.agents-memory/*.md` content in English.
+5. Do not leave mismatches between filesystem and this file.
 
 ## Tracking Scope
-- `.agents-memory/` should capture concrete project progress, not routine administrative navigation.
-- Do not add task/backlog/session entries for simple status checks, directory/file listing, or reading memory to decide what to do next.
-- Add records when there is material advancement (implementation, documentation changes, actionable triage/follow-up, or non-trivial decision making).
+- Track concrete project progress.
+- Skip routine administrative checks.
+- Record only material advancement (implementation, docs, triage/follow-up, non-trivial decisions).
 
 ## End-of-Session Checklist
-- [ ] New tasks exist in `tasks/active/` and are referenced in `backlog.md`.
-- [ ] Finished/blocked tasks were moved to the right folder.
-- [ ] Non-trivial decisions were logged.
-- [ ] Session summary was added in `sessions/`.
-- [ ] `structure.md` remains accurate.
+- [ ] New task tracked in `tasks/active/` and `backlog.md`.
+- [ ] Finished/blocked tasks moved to the right folder.
+- [ ] Non-trivial decisions logged.
+- [ ] Session summary added.
+- [ ] `structure.md` and indexes are accurate.

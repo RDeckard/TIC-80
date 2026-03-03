@@ -1,0 +1,17 @@
+# Core Loader
+
+## Always-Load Set
+1. `../structure.md`
+2. this file
+3. `../backlog.md`
+4. all files in `../tasks/active/` (except optional `README.md`)
+
+## Cold Context Access
+Use indexes before opening cold files:
+1. `../indexes/wave-index.md`
+2. `../indexes/cold-manifest.md`
+
+## Stable Rules
+- Keep all `.agents-memory/*.md` in English.
+- Keep memory notes concise and actionable.
+- A wave closes when its tasks are `done|blocked` and related PR(s) are open/ready.

@@ -32,6 +32,9 @@ Define a low-risk, high-throughput order of execution for quick wins, while resp
 - [x] Wave 2: `#2439` Fix Android `Ctrl+S` adding extra `s`. See `../done/TASK-20260303-2439-android-ctrl-shortcut-text-guard.md`.
 - [x] Wave 3: `#2292` Fix Android arrow keys from external/Bluetooth keyboard. See `../done/TASK-20260303-2292-android-arrow-keys-routing.md`.
 - [x] Wave 4: `#2392` Add language/runtime version info to `help version`. See `../done/TASK-20260303-2392-help-version-language-runtimes.md`.
+- [ ] Wave 5: `#2437` Fix music editor note preview mute channel mismatch. See `TASK-20260303-2437-music-preview-mute-channel.md`.
+- [ ] Wave 6: `#2388` Website "play" page alphabetic sorting adjustment.
+- [ ] Wave 7: `#2301` `ttri` issue in `export html alone=1`.
 
 ## Verification
 - Tests run:
