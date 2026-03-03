@@ -13,3 +13,4 @@ This directory stores non-trivial technical decisions.
 - `DEC-20260303-2480-localized-music-hex-fix.md`: localized music editor input fix policy for `#2480`.
 - `DEC-20260303-2439-ctrl-shortcut-text-guard.md`: shared shortcut/text separation decision for `#2439`.
 - `DEC-20260303-2292-android-keyboard-vs-joystick-classification.md`: Android keyboard/joystick classification decision for `#2292`.
+- `DEC-20260303-2392-help-version-runtime-mapping.md`: CMake-generated runtime-version sourcing strategy for `help version` (`#2392`).

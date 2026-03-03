@@ -31,7 +31,7 @@ Define a low-risk, high-throughput order of execution for quick wins, while resp
 - [x] Wave 1B: `#2480` Fix Caps Lock handling for A-F volume/hex input in music editor. See `../done/TASK-20260303-2480-capslock-music-hex.md`.
 - [x] Wave 2: `#2439` Fix Android `Ctrl+S` adding extra `s`. See `../done/TASK-20260303-2439-android-ctrl-shortcut-text-guard.md`.
 - [x] Wave 3: `#2292` Fix Android arrow keys from external/Bluetooth keyboard. See `../done/TASK-20260303-2292-android-arrow-keys-routing.md`.
-- [ ] Wave 4: `#2392` Add language/runtime version info to `help version`.
+- [x] Wave 4: `#2392` Add language/runtime version info to `help version`. See `../done/TASK-20260303-2392-help-version-language-runtimes.md`.
 
 ## Verification
 - Tests run:

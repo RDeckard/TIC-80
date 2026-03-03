@@ -19,3 +19,4 @@ This directory stores session summaries to preserve context.
 - `2026-03-03-2480-implementation.md`: implementation log for issue `#2480`.
 - `2026-03-03-2439-implementation.md`: implementation log for issue `#2439`.
 - `2026-03-03-2292-implementation.md`: implementation log for issue `#2292`.
+- `2026-03-03-2392-implementation.md`: implementation log for issue `#2392`.
