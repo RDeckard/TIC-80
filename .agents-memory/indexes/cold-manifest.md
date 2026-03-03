@@ -7,6 +7,8 @@
 | `tasks/done` | `tasks/done/TASK-20260303-2439-android-ctrl-shortcut-text-guard.md` | Completed implementation task | `#2439,wave-2` | `2026-03-03` |
 | `tasks/done` | `tasks/done/TASK-20260303-2292-android-arrow-keys-routing.md` | Completed implementation task | `#2292,wave-3` | `2026-03-03` |
 | `tasks/done` | `tasks/done/TASK-20260303-2392-help-version-language-runtimes.md` | Completed implementation task | `#2392,wave-4` | `2026-03-03` |
+| `tasks/done` | `tasks/done/TASK-20260303-2437-music-preview-mute-channel.md` | Completed implementation task | `#2437,wave-5` | `2026-03-03` |
+| `tasks/blocked` | `tasks/blocked/TASK-20260303-2388-website-play-alphabetic-sorting.md` | Blocked task (website source not present in this repository) | `#2388,wave-6,blocked` | `2026-03-03` |
 | `tasks/done` | `tasks/done/TASK-20260303-memory-governance-hot-core-cold.md` | Completed memory governance implementation task | `memory,process` | `2026-03-03` |
 | `tasks/done` | `tasks/done/TASK-20260302-pr-description-format-guideline.md` | Completed process/documentation task | `process,pr-template` | `2026-03-02` |
 | `decisions` | `decisions/DEC-20260302-quickwin-selection-and-contributor-constraints.md` | Initial quick-win strategy and constraints | `strategy,waves` | `2026-03-02` |
@@ -29,4 +31,6 @@
 | `sessions` | `sessions/2026-03-03-next-wave-prioritization.md` | Next-wave prioritization log | `waves,#2437` | `2026-03-03` |
 | `sessions` | `sessions/2026-03-03-memory-governance-v2-implementation.md` | Memory governance implementation log | `memory,process` | `2026-03-03` |
 | `sessions` | `sessions/2026-03-03-2437-ci-first-validation.md` | CI-first validation policy session for #2437 | `#2437,validation,ci` | `2026-03-03` |
+| `sessions` | `sessions/2026-03-03-2437-closure-and-2388-kickoff.md` | Wave 5 closure and Wave 6 kickoff log | `#2437,#2388,waves` | `2026-03-03` |
+| `sessions` | `sessions/2026-03-03-2388-blocked-2301-kickoff.md` | Wave 6 blocked decision and Wave 7 kickoff log | `#2388,#2301,waves` | `2026-03-03` |
 | `references` | `references/project-1.2-view1-todo-snapshot-2026-03-02.md` | TODO board snapshot source | `board,snapshot` | `2026-03-02` |

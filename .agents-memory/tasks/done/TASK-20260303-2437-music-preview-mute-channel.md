@@ -2,12 +2,13 @@
 
 ## Metadata
 - ID: TASK-20260303-2437-music-preview-mute-channel
-- Status: active
+- Status: done
 - Priority: high
 - Created: 2026-03-03
 - Updated: 2026-03-03
 - Links (issue/PR/commit):
   - Issue: https://github.com/nesbox/TIC-80/issues/2437
+  - PR: https://github.com/nesbox/TIC-80/pull/2899 (in review, CI green as of 2026-03-03)
   - Decision: `../../decisions/DEC-20260303-post-2392-next-quickwin-order.md`
   - Decision: `../../decisions/DEC-20260303-2437-validation-policy-ci-first.md`
 
@@ -29,16 +30,17 @@ Implement and validate a focused fix for `#2437` without expanding scope to unre
 3. Verify with targeted reproduction and available local checks.
 
 ## Execution
-- [ ] Reproduce issue behavior from `#2437`.
+- [x] Reproduce issue behavior from `#2437`.
 - [x] Implement localized code fix.
 - [x] Run verification and document outcome.
 
 ## Verification
 - Tests run:
   - Local full build intentionally skipped (performance policy, CI-first validation).
+  - CI pipeline on PR branch.
 - Results:
   - Static validation completed on changed code path.
-  - Full compile/test confirmation pending CI.
+  - CI is green (review pending).
 
 ## Result
 Code fix prepared for `playNote()` channel routing:
@@ -47,5 +49,4 @@ Code fix prepared for `playNote()` channel routing:
 - Final pass/fail signal delegated to CI.
 
 ## Follow-up
-- If completed, move this file to `../done/`.
-- Then continue queue with `#2388` and `#2301`.
+- Continue queue with `#2388` and `#2301`.
