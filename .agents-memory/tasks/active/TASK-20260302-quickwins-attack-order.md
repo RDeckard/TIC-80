@@ -26,6 +26,28 @@ Define a low-risk, high-throughput order of execution for quick wins, while resp
 2. Continue with Android input fixes.
 3. Move to medium enhancement scope.
 
+## In-Progress Board Quick Complexity Scan (2026-03-04)
+Source: `https://github.com/users/nesbox/projects/2/views/1` (`In progress` lane).
+
+Inference used to mirror the lane quickly via API: `project:"nesbox/2" is:open assignee:*` (10 items).
+
+### Per-item pre-opinion
+- `#2447` (HTML export + MoonScript loading): `M/L` complexity, medium-to-high debug risk.
+- `#2876` (third-party license notices/compliance): `M/L` complexity, legal/process-heavy.
+- `#2437` (music preview mute channel mismatch): `S/M` complexity; open draft PR exists.
+- `#2430` (Raspberry Pi network behavior): `L` complexity, hardware/environment-sensitive.
+- `#2157` (how to build on iOS): `M` if doc-only, `L` if implementation.
+- `#1948` (Wren `textri` regression): `M/L` complexity, language runtime/API surface.
+- `#2257` (shared plugins for languages): `XL` complexity, architecture-scale change.
+- `#2325` (`blit` + `ttri` interaction bug): `M/L` complexity, graphics pipeline risk.
+- `#2330` (tab-size cursor/selection misalignment): `S/M` complexity, likely localized editor fix.
+- `#780` (Sokol renderer migration): `XL` complexity, renderer migration project.
+
+### Practical Fit For External Contributors
+- Good near-term candidates: `#2330`, `#2157` (doc-only), `#2325` (only if fast local repro).
+- Medium-risk optional: `#1948`, `#2447`.
+- Avoid for now (too large/high-risk): `#2257`, `#780`, `#2430`, `#2876`.
+
 ## Execution
 - [x] Wave 1A: `#2478` Document `map` remap callback differences across language bindings. See `../done/TASK-20260302-2478-remap-docs-cross-surface.md`.
 - [x] Wave 1B: `#2480` Fix Caps Lock handling for A-F volume/hex input in music editor. See `../done/TASK-20260303-2480-capslock-music-hex.md`.

@@ -3,6 +3,12 @@
 ## General Goal
 This repository is used to keep TIC-80 moving forward through practical, testable, and well-tracked contributions (code, docs, triage, and issue follow-up).
 
+## Contributor Stance
+- We are external contributors, not project owners.
+- Prioritize small, testable, low-risk contributions over broad refactors.
+- Avoid architecture-scale work unless maintainers explicitly ask for it.
+- Communicate with humility: be explicit about assumptions and limits, avoid overclaiming expertise, and frame proposals for maintainer review.
+
 ## Available Tools
 - Local shell (read/edit files, build, test, git).
 - Local git (branches, commits, diffs, history).
