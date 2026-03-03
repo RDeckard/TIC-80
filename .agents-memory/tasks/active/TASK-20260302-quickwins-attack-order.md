@@ -5,7 +5,7 @@
 - Status: active
 - Priority: high
 - Created: 2026-03-02
-- Updated: 2026-03-03
+- Updated: 2026-03-04
 - Links (issue/PR/commit):
   - TODO source: https://github.com/users/nesbox/projects/2/views/1
   - Decision: `../../decisions/DEC-20260302-quickwin-selection-and-contributor-constraints.md`
@@ -34,7 +34,8 @@ Define a low-risk, high-throughput order of execution for quick wins, while resp
 - [x] Wave 4: `#2392` Add language/runtime version info to `help version`. See `../done/TASK-20260303-2392-help-version-language-runtimes.md`.
 - [x] Wave 5: `#2437` Fix music editor note preview mute channel mismatch. See `../done/TASK-20260303-2437-music-preview-mute-channel.md`.
 - [ ] Wave 6: `#2388` Website "play" page alphabetic sorting adjustment. Blocked in `../blocked/TASK-20260303-2388-website-play-alphabetic-sorting.md` (website source not present in this repo).
-- [ ] Wave 7: `#2301` `ttri` issue in `export html alone=1`. See `TASK-20260303-2301-ttri-export-html-alone1.md`.
+- [ ] Wave 7: `#2301` `ttri` issue in `export html alone=1`. Blocked in `../blocked/TASK-20260303-2301-ttri-export-html-alone1.md` (low-confidence fix path after investigation).
+- [ ] Wave 8: `#2614` Keys getting stuck when grabbing the window. See `TASK-20260304-2614-sdl-stuck-keys-window-grab.md`.
 
 ## Verification
 - Tests run:
