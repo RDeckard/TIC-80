@@ -17,6 +17,7 @@
 | `decisions` | `decisions/DEC-20260303-2392-help-version-runtime-mapping.md` | Runtime version mapping decision | `#2392,wave-4` | `2026-03-03` |
 | `decisions` | `decisions/DEC-20260303-post-2392-next-quickwin-order.md` | Next-wave ordering decision | `waves,#2437,#2388,#2301` | `2026-03-03` |
 | `decisions` | `decisions/DEC-20260303-memory-governance-hot-core-cold.md` | Memory loading and layering decision | `memory,core` | `2026-03-03` |
+| `decisions` | `decisions/DEC-20260303-2437-validation-policy-ci-first.md` | Local performance constraint policy: CI-first validation | `#2437,validation,ci` | `2026-03-03` |
 | `sessions` | `sessions/2026-03-02-bootstrap.md` | Memory bootstrap log | `bootstrap` | `2026-03-02` |
 | `sessions` | `sessions/2026-03-02-todo-and-quickwins-planning.md` | TODO snapshot and planning | `planning,waves` | `2026-03-02` |
 | `sessions` | `sessions/2026-03-02-2478-implementation.md` | Implementation session log | `#2478,wave-1` | `2026-03-02` |
@@ -27,4 +28,5 @@
 | `sessions` | `sessions/2026-03-03-2392-implementation.md` | Implementation session log | `#2392,wave-4` | `2026-03-03` |
 | `sessions` | `sessions/2026-03-03-next-wave-prioritization.md` | Next-wave prioritization log | `waves,#2437` | `2026-03-03` |
 | `sessions` | `sessions/2026-03-03-memory-governance-v2-implementation.md` | Memory governance implementation log | `memory,process` | `2026-03-03` |
+| `sessions` | `sessions/2026-03-03-2437-ci-first-validation.md` | CI-first validation policy session for #2437 | `#2437,validation,ci` | `2026-03-03` |
 | `references` | `references/project-1.2-view1-todo-snapshot-2026-03-02.md` | TODO board snapshot source | `board,snapshot` | `2026-03-02` |

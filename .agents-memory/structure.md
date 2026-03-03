@@ -66,3 +66,7 @@ Use `indexes/wave-index.md` and `indexes/cold-manifest.md` to fetch cold context
 - [ ] Non-trivial decisions logged.
 - [ ] Session summary added.
 - [ ] `structure.md` and indexes are accurate.
+
+## Recent Additions (2026-03-03)
+- Decision record: `decisions/DEC-20260303-2437-validation-policy-ci-first.md`
+- Session record: `sessions/2026-03-03-2437-ci-first-validation.md`
