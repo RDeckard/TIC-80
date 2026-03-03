@@ -20,6 +20,7 @@ It must always reflect the actual directory structure exactly.
 │   └── 2026-03-02-pr-description-format-guideline.md # PR description format guideline session log
 │   └── 2026-03-03-2480-implementation.md # #2480 implementation session log
 │   └── 2026-03-03-2439-implementation.md # #2439 implementation session log
+│   └── 2026-03-03-2292-implementation.md # #2292 implementation session log
 ├── tasks/
 │   ├── active/
 │   │   ├── README.md             # In-progress tasks
@@ -30,6 +31,7 @@ It must always reflect the actual directory structure exactly.
 │   │   └── TASK-20260302-pr-description-format-guideline.md # Completed PR description format task
 │   │   └── TASK-20260303-2480-capslock-music-hex.md # Completed #2480 music editor fix
 │   │   └── TASK-20260303-2439-android-ctrl-shortcut-text-guard.md # Completed #2439 Ctrl-shortcut text guard
+│   │   └── TASK-20260303-2292-android-arrow-keys-routing.md # Completed #2292 Android keyboard arrow routing fix
 │   ├── blocked/
 │   │   └── README.md             # Blocked tasks
 │   └── templates/
@@ -41,6 +43,7 @@ It must always reflect the actual directory structure exactly.
 │   └── DEC-20260302-2478-documentation-scope-and-style.md # #2478 doc surface and style decision
 │   └── DEC-20260303-2480-localized-music-hex-fix.md # #2480 localized fix decision
 │   └── DEC-20260303-2439-ctrl-shortcut-text-guard.md # #2439 shortcut/text separation decision
+│   └── DEC-20260303-2292-android-keyboard-vs-joystick-classification.md # #2292 Android keyboard/joystick classification decision
 └── references/
     ├── README.md                 # Useful links/docs/context
     └── project-1.2-view1-todo-snapshot-2026-03-02.md # Snapshot of 24 TODO items
