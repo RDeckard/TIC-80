@@ -55,3 +55,23 @@ When asked to write a PR description, keep it brief and use exactly these sectio
 - `Why`
 - `What`
 - `Impact` (only if there is a meaningful impact to call out)
+
+Formatting preference:
+- Leave one blank line after each section heading (`## Why`, `## What`, `## Impact`).
+- In `Why`, include the original issue URL on its own line (e.g. `Original issue: https://github.com/nesbox/TIC-80/issues/2439`).
+
+## PR Title Convention
+When suggesting a PR title, use bracketed context tags and do not include the issue number.
+
+Preferred pattern:
+- `[Fix] [Android] short descriptive title`
+
+## Post-Implementation Handoff
+After finishing an implementation, proactively offer in the conversation:
+- a suggested branch name
+- a suggested PR title
+- a suggested PR description (using the required `Why`/`What`/`Impact` format)
+
+When the implementation includes a meaningful behavioral tradeoff, include a clear reviewer question in the PR description so maintainers can explicitly decide.
+
+When relevant, include the concrete verification command(s) and outcome in the PR description draft.

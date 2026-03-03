@@ -29,7 +29,7 @@ Define a low-risk, high-throughput order of execution for quick wins, while resp
 ## Execution
 - [x] Wave 1A: `#2478` Document `map` remap callback differences across language bindings. See `../done/TASK-20260302-2478-remap-docs-cross-surface.md`.
 - [x] Wave 1B: `#2480` Fix Caps Lock handling for A-F volume/hex input in music editor. See `../done/TASK-20260303-2480-capslock-music-hex.md`.
-- [ ] Wave 2: `#2439` Fix Android `Ctrl+S` adding extra `s`.
+- [x] Wave 2: `#2439` Fix Android `Ctrl+S` adding extra `s`. See `../done/TASK-20260303-2439-android-ctrl-shortcut-text-guard.md`.
 - [ ] Wave 3: `#2292` Fix Android arrow keys from external/Bluetooth keyboard.
 - [ ] Wave 4: `#2392` Add language/runtime version info to `help version`.
 
