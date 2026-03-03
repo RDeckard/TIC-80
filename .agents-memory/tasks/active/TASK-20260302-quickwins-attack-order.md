@@ -58,6 +58,7 @@ Inference used to mirror the lane quickly via API: `project:"nesbox/2" is:open a
 - [ ] Wave 6: `#2388` Website "play" page alphabetic sorting adjustment. Blocked in `../blocked/TASK-20260303-2388-website-play-alphabetic-sorting.md` (website source not present in this repo).
 - [ ] Wave 7: `#2301` `ttri` issue in `export html alone=1`. Blocked in `../blocked/TASK-20260303-2301-ttri-export-html-alone1.md` (low-confidence fix path after investigation).
 - [ ] Wave 8: `#2614` Keys getting stuck when grabbing the window. See `TASK-20260304-2614-sdl-stuck-keys-window-grab.md`.
+- [ ] Wave 9: `#2330` Fix tab-aware mouse cursor/selection alignment in code editor. See `TASK-20260304-2330-code-mouse-tab-alignment.md`.
 
 ## Verification
 - Tests run:

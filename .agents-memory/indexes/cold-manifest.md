@@ -20,6 +20,7 @@
 | `decisions` | `decisions/DEC-20260303-2392-help-version-runtime-mapping.md` | Runtime version mapping decision | `#2392,wave-4` | `2026-03-03` |
 | `decisions` | `decisions/DEC-20260303-post-2392-next-quickwin-order.md` | Next-wave ordering decision | `waves,#2437,#2388,#2301` | `2026-03-03` |
 | `decisions` | `decisions/DEC-20260304-2614-focus-loss-key-reset-policy.md` | SDL stuck-key mitigation policy for focus loss handling | `#2614,wave-8,sdl,input` | `2026-03-04` |
+| `decisions` | `decisions/DEC-20260304-2330-mouse-tab-visual-mapping-policy.md` | Mouse mapping policy for tab-aware visual cursor placement in code editor | `#2330,wave-9,editor,input` | `2026-03-04` |
 | `decisions` | `decisions/DEC-20260303-memory-governance-hot-core-cold.md` | Memory loading and layering decision | `memory,core` | `2026-03-03` |
 | `decisions` | `decisions/DEC-20260303-2437-validation-policy-ci-first.md` | Local performance constraint policy: CI-first validation | `#2437,validation,ci` | `2026-03-03` |
 | `sessions` | `sessions/2026-03-02-bootstrap.md` | Memory bootstrap log | `bootstrap` | `2026-03-02` |
@@ -36,4 +37,5 @@
 | `sessions` | `sessions/2026-03-03-2437-closure-and-2388-kickoff.md` | Wave 5 closure and Wave 6 kickoff log | `#2437,#2388,waves` | `2026-03-03` |
 | `sessions` | `sessions/2026-03-03-2388-blocked-2301-kickoff.md` | Wave 6 blocked decision and Wave 7 kickoff log | `#2388,#2301,waves` | `2026-03-03` |
 | `sessions` | `sessions/2026-03-04-2301-blocked-2614-kickoff.md` | Wave 7 blocked decision and Wave 8 kickoff log | `#2301,#2614,waves` | `2026-03-04` |
+| `sessions` | `sessions/2026-03-04-2330-mouse-tab-alignment.md` | Wave 9 implementation session for tab-aware code editor mouse mapping | `#2330,wave-9,editor` | `2026-03-04` |
 | `references` | `references/project-1.2-view1-todo-snapshot-2026-03-02.md` | TODO board snapshot source | `board,snapshot` | `2026-03-02` |
