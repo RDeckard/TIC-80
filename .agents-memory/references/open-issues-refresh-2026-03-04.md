@@ -11,9 +11,6 @@ No additional fetch was performed after this refresh request.
 - `#2301` remains open (reopened state).
 
 ## Newly Captured Actionable Candidates
-- `#2858` (Arch build docs correction)
-  - README currently shows `sudo pacman -S cmake ruby mesa libglvnd glu`.
-  - Candidate change: add `--needed` and include `ruby-rake`.
 - `#2868` (HTML export blur filter)
   - HTML export templates are present in this repository under `build/html/`.
 - `#2855` (macOS horizontal scroll direction)
