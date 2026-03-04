@@ -24,12 +24,12 @@ Fix hex keyboard input in the music editor so both lowercase and uppercase lette
 ## Plan
 1. Patch `sym2hex` in music editor to accept `A-F` and `a-f`.
 2. Check all music editor call sites using `sym2hex`.
-3. Update memory artifacts (decision, session, backlog, wave tracker).
+3. Update memory artifacts (backlog, wave tracker).
 
 ## Execution
 - [x] Implement `music.c` fix for uppercase hex input.
 - [x] Verify call sites and regression surface by static inspection.
-- [x] Record decision/session and move task to done.
+- [x] Record tracking updates and move task to done.
 
 ## Verification
 - Tests run:

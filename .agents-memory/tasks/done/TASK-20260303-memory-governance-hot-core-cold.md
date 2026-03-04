@@ -9,7 +9,6 @@
 - Updated: 2026-03-03
 - Links (issue/PR/commit):
   - Plan conversation: memory governance refinement (hot/core/cold)
-  - Decision: `../../decisions/DEC-20260303-memory-governance-hot-core-cold.md`
   - Depends-On: none
 
 ## Context
@@ -26,7 +25,7 @@ Implement a concise hot/core/cold memory policy, plus indexes for cold retrieval
 ## Plan
 1. Add core/index directories and files.
 2. Update policy docs (`AGENTS.md`, `structure.md`, READMEs, templates).
-3. Register the change in backlog, decision, and session logs.
+3. Register the change in backlog and tracking logs.
 
 ## Execution
 - [x] Create `core/` and `indexes/` files.

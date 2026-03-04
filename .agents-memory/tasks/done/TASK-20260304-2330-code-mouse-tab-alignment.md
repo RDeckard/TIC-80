@@ -10,8 +10,6 @@
 - Links (issue/PR/commit):
   - Issue: https://github.com/nesbox/TIC-80/issues/2330
   - Parent plan: `TASK-20260302-quickwins-attack-order.md`
-  - Decision: `../../decisions/DEC-20260304-2330-mouse-tab-visual-mapping-policy.md`
-  - Closure policy: `../../decisions/DEC-20260304-local-closure-without-pr-state-gating.md`
 
 ## Context
 Issue `#2330` reports that mouse cursor placement/selection in the code editor is visually misaligned when tab size is greater than 1.

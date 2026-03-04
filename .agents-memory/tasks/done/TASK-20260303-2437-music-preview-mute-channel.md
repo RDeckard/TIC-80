@@ -9,8 +9,6 @@
 - Links (issue/PR/commit):
   - Issue: https://github.com/nesbox/TIC-80/issues/2437
   - PR: https://github.com/nesbox/TIC-80/pull/2899 (in review, CI green as of 2026-03-03)
-  - Decision: `../../decisions/DEC-20260303-post-2392-next-quickwin-order.md`
-  - Decision: `../../decisions/DEC-20260303-2437-validation-policy-ci-first.md`
 
 ## Context
 After completing the previously planned quick-win waves up to `#2392`, the next best low-risk/high-throughput issue is `#2437` (music editor note preview mute channel mismatch).

@@ -9,7 +9,6 @@
 - Links (issue/PR/commit):
   - Issue: https://github.com/nesbox/TIC-80/issues/2301
   - Parent plan: `TASK-20260302-quickwins-attack-order.md`
-  - Decision: `../../decisions/DEC-20260303-post-2392-next-quickwin-order.md`
 
 ## Context
 Wave 6 (`#2388`) is blocked in this repository because `tic80.com/play` website source is not present here. Wave 7 (`#2301`) was then analyzed, but implementation confidence remained low without authoritative standalone export runtime parity.

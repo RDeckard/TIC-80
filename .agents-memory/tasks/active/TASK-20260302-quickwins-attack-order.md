@@ -7,11 +7,10 @@
 - Created: 2026-03-02
 - Updated: 2026-03-04
 - Links (issue/PR/commit):
-  - TODO source: https://github.com/users/nesbox/projects/2/views/1
-  - Decision: `../../decisions/DEC-20260302-quickwin-selection-and-contributor-constraints.md`
+  - TODO source: https://github.com/users/nesbox/projects/2
 
 ## Context
-Prepare a practical sequence for future contribution sessions on TIC-80 project 1.2 TODO items.
+Prepare a practical sequence for future contribution iterations on TIC-80 project 1.2 TODO items.
 
 ## Objective
 Define a low-risk, high-throughput order of execution for quick wins, while respecting external contributor permissions.
@@ -19,7 +18,7 @@ Define a low-risk, high-throughput order of execution for quick wins, while resp
 ## Assumptions/Constraints
 - We do not have rights to edit `nesbox` project board columns/cards.
 - We can contribute via fork + PR workflow.
-- Each issue should be handled in a focused conversation/session.
+- Each issue should be handled in a focused conversation.
 - User-directed override (2026-03-04): treat `#2614` and `#2330` as locally done even if related PRs remain draft/open; revisit only on explicit user request.
 
 ## Plan
@@ -28,7 +27,7 @@ Define a low-risk, high-throughput order of execution for quick wins, while resp
 3. Move to medium enhancement scope.
 
 ## In-Progress Board Quick Complexity Scan (2026-03-04)
-Source: `https://github.com/users/nesbox/projects/2/views/1` (`In progress` lane).
+Source: `https://github.com/users/nesbox/projects/2` (`In progress` lane).
 
 Inference used to mirror the lane quickly via API: `project:"nesbox/2" is:open assignee:*` (10 items).
 
@@ -49,25 +48,6 @@ Inference used to mirror the lane quickly via API: `project:"nesbox/2" is:open a
 - Medium-risk optional: `#1948`, `#2447`.
 - Avoid for now (too large/high-risk): `#2257`, `#780`, `#2430`, `#2876`.
 
-## Issue Intelligence Refresh (2026-03-04, no new fetch after scan)
-Sources:
-- GitHub issue/PR reads done during the same session.
-- Local repository checks: `README.md`, `src/studio/studio.c`, `build/html/export.html`.
-- Snapshot file: `../../references/open-issues-refresh-2026-03-04.md`.
-
-Actionable candidates confirmed open:
-- `#2615` (PCM channel not working on exported builds): selected for implementation with native-export local-template fallback to reduce stale-server binary risk.
-- `#2868` (HTML export blur filter): export HTML template in this repo is present and can be changed locally.
-- `#2855` (macOS horizontal scroll direction): scan identified unconditional `scrollx *= -1` in `src/studio/studio.c` (addressed in Wave 11).
-- `#2861` (JS `print(0.5)` crash): open with concrete repro and code pointer.
-- `#2742` (Linux install misses language libraries): open with clear build/install repro.
-
-Additional context collected:
-- `#2821` is open (Android wireless keyboard arrow behavior).
-- Android storage policy cluster remains open (`#2470`, `#2843`, `#2873`) and likely needs broader platform handling.
-- Existing wave blockers remain unchanged: `#2388` (website repo absent), `#2301` (low-confidence localized fix path).
-- Draft PRs exist for `#2614` (`#2900`) and `#2330` (`#2901`), but local tracking now treats both waves as done unless user revisits.
-
 ## Execution
 - [x] Wave 1A: `#2478` Document `map` remap callback differences across language bindings. See `../done/TASK-20260302-2478-remap-docs-cross-surface.md`.
 - [x] Wave 1B: `#2480` Fix Caps Lock handling for A-F volume/hex input in music editor. See `../done/TASK-20260303-2480-capslock-music-hex.md`.
@@ -84,12 +64,12 @@ Additional context collected:
 
 ## Verification
 - Tests run:
-  - To be filled per issue implementation session.
+  - To be filled per issue implementation.
 - Results:
-  - To be filled per issue implementation session.
+  - To be filled per issue implementation.
 
 ## Result
-Execution order prepared and linked to backlog/decision records.
+Execution order prepared and linked to backlog records.
 
 ## Follow-up
 - Track progress per wave in this file.

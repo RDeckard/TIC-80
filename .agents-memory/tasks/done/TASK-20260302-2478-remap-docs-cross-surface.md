@@ -9,7 +9,6 @@
 - Links (issue/PR/commit):
   - Issue: https://github.com/nesbox/TIC-80/issues/2478
   - Parent execution plan: `TASK-20260302-quickwins-attack-order.md`
-  - Decision: `../../decisions/DEC-20260302-2478-documentation-scope-and-style.md`
 
 ## Context
 Issue `#2478` asks to document `map(..., remap=...)` callback differences across language bindings.
@@ -31,7 +30,7 @@ Document binding-specific `remap` behavior in canonical API help and keep projec
 - [x] Add complete binding matrix in `src/api.h` map help text.
 - [x] Add concise project-level pointer in `README.md`.
 - [x] Add short language-specific remap notes in `demos/luademo.lua`, `demos/jsdemo.js`, and `demos/pythondemo.py`.
-- [x] Update backlog, decision log, and session notes.
+- [x] Update backlog, tracking notes.
 
 ## Verification
 - Tests run:

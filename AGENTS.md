@@ -41,15 +41,13 @@ Default load at the start of each conversation:
 
 Do not auto-load:
 - `.agents-memory/tasks/done/`
-- `.agents-memory/decisions/`
-- `.agents-memory/sessions/`
 - `.agents-memory/references/`
 
 Load cold files only when linked from hot/core/index files.
 
 ### Memory Language and Style
 - All `.md` files under `.agents-memory/` must be in English.
-- Keep memory notes concise and decision-focused.
+- Keep memory notes concise and actionable.
 
 ## Code Style and Comment Policy
 When editing source files:
@@ -64,24 +62,21 @@ When editing source files:
 3. Every new task must be tracked in:
 - `backlog.md`
 - a task file under `tasks/active/`
-4. Any non-trivial technical decision must be logged under `decisions/`.
-5. Any important conversation/work session must leave a concise trace in `sessions/`.
-6. `.agents-memory/` is a living workspace and may be amended, corrected, expanded, and reorganized over time.
-7. Never store secrets, tokens, credentials, or sensitive data in `.agents-memory/`.
+4. `.agents-memory/` is a living workspace and may be amended, corrected, expanded, and reorganized over time.
+5. Never store secrets, tokens, credentials, or sensitive data in `.agents-memory/`.
 
 ### Tracking Scope Guardrails
-- Do not create task/backlog/session records for routine administrative actions that do not advance the project directly.
+- Do not create task/backlog records for routine administrative actions that do not advance the project directly.
 - Examples of actions to skip: simple status checks, folder/file listing, reading existing memory to decide next steps, and informal checkpoint replies.
-- Create tracking records only when there is concrete project progress (code/doc changes, actionable triage, issue/PR follow-up, or non-trivial technical decisions).
+- Create tracking records only when there is concrete project progress (code/doc changes, actionable triage, or issue/PR follow-up).
 
 ## Tracking Workflow
 1. Review backlog and active tasks.
 2. Create/update the active task file (scope, plan, status, links).
-3. Execute work and log important decisions.
+3. Execute work.
 4. At the end:
 - move task to `done/` or `blocked/`
 - update backlog
-- add a session summary in `sessions/`
 - verify `structure.md` is accurate.
 
 ### Wave Closure Rule
@@ -115,4 +110,4 @@ After finishing an implementation, proactively offer in the conversation:
 
 When the implementation includes a meaningful behavioral tradeoff, include a clear reviewer question in the PR description so maintainers can explicitly decide.
 
-When relevant, include the concrete verification command(s) and outcome in the PR description draft.
+Do not include CI/check commands, verification summaries, or memory-tracking changes in the PR description draft.

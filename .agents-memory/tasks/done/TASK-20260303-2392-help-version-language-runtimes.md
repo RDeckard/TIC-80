@@ -32,7 +32,7 @@ Extend `help version` to show TIC-80 version plus per-language runtime versions 
 - [x] Wire runtime-version generation into top-level `CMakeLists.txt`.
 - [x] Update `onHelp_version` to print TIC-80 version + `language runtimes` listing for loaded scripts.
 - [x] Build-check `tic80` target.
-- [x] Update backlog, decision, session, and quick-win tracking files.
+- [x] Update backlog and quick-win tracking files.
 
 ## Verification
 - Tests run:

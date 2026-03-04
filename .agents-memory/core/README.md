@@ -5,5 +5,5 @@
 ## Rules
 - Keep notes short and stable.
 - Add only content useful across multiple waves.
-- Do not duplicate task/session details.
+- Do not duplicate task history details.
 - Link to cold files instead of copying them.

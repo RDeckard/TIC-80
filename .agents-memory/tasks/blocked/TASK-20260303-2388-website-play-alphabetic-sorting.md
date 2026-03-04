@@ -9,7 +9,6 @@
 - Links (issue/PR/commit):
   - Issue: https://github.com/nesbox/TIC-80/issues/2388
   - Parent plan: `TASK-20260302-quickwins-attack-order.md`
-  - Decision: `../../decisions/DEC-20260303-post-2392-next-quickwin-order.md`
 
 ## Context
 Wave 5 (`#2437`) is complete and in PR review with green CI, so the next queued quick win is `#2388`: add practical alphabetic sorting support for the website "play" listing workflow.

@@ -9,8 +9,6 @@
 - Links (issue/PR/commit):
   - Issue: https://github.com/nesbox/TIC-80/issues/2614
   - Parent plan: `TASK-20260302-quickwins-attack-order.md`
-  - Decision: `../../decisions/DEC-20260304-2614-focus-loss-key-reset-policy.md`
-  - Closure policy: `../../decisions/DEC-20260304-local-closure-without-pr-state-gating.md`
 
 ## Context
 After blocking Wave 7 (`#2301`) due to low-confidence standalone-export root-cause isolation, the next actionable issue is `#2614`: keyboard keys can stay logically pressed when a `KEYUP` event is missed during window-grab/focus transitions.

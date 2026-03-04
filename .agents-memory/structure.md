@@ -16,8 +16,6 @@ Default load order:
 
 Do not auto-load:
 - `tasks/done/`
-- `decisions/`
-- `sessions/`
 - `references/`
 
 Use `indexes/wave-index.md` and `indexes/cold-manifest.md` to fetch cold context on demand.
@@ -37,16 +35,12 @@ Use `indexes/wave-index.md` and `indexes/cold-manifest.md` to fetch cold context
 │   ├── active/                   # Current execution context (hot)
 │   ├── done/                     # Completed tasks (cold)
 │   ├── blocked/                  # Blocked tasks (cold)
-│   └── templates/                # Task/decision templates
-├── decisions/                    # Non-trivial decisions (cold)
-├── sessions/                     # Session logs (cold)
+│   └── templates/                # Task templates
 └── references/                   # External/source snapshots (cold)
 ```
 
 ## Naming Conventions
 - Tasks: `tasks/<state>/TASK-YYYYMMDD-slug.md`
-- Decisions: `decisions/DEC-YYYYMMDD-slug.md`
-- Sessions: `sessions/YYYY-MM-DD-note.md`
 
 ## Maintenance Contract (Mandatory)
 1. Read this file before structural changes.
@@ -58,21 +52,15 @@ Use `indexes/wave-index.md` and `indexes/cold-manifest.md` to fetch cold context
 ## Tracking Scope
 - Track concrete project progress.
 - Skip routine administrative checks.
-- Record only material advancement (implementation, docs, triage/follow-up, non-trivial decisions).
+- Record only material advancement (implementation, docs, triage/follow-up).
 
 ## End-of-Session Checklist
 - [ ] New task tracked in `tasks/active/` and `backlog.md`.
 - [ ] Finished/blocked tasks moved to the right folder.
-- [ ] Non-trivial decisions logged.
-- [ ] Session summary added.
 - [ ] `structure.md` and indexes are accurate.
 
 ## Recent Additions (2026-03-04)
 - Task record moved to done: `tasks/done/TASK-20260304-2614-sdl-stuck-keys-window-grab.md`
 - Task record moved to done: `tasks/done/TASK-20260304-2330-code-mouse-tab-alignment.md`
 - Task record moved to done: `tasks/done/TASK-20260304-2855-macos-horizontal-scroll-direction.md`
-- Decision record: `decisions/DEC-20260304-local-closure-without-pr-state-gating.md`
-- Decision record: `decisions/DEC-20260304-2855-macos-scrollx-platform-scope.md`
-- Session record: `sessions/2026-03-04-memory-refresh-local-closure-and-issue-scan.md`
-- Session record: `sessions/2026-03-04-2855-macos-horizontal-scroll-direction.md`
 - Reference snapshot: `references/open-issues-refresh-2026-03-04.md`

@@ -29,7 +29,7 @@ Restore arrow key behavior from external/Bluetooth keyboards on Android without 
 ## Execution
 - [x] Add keyboard-vs-joystick guard in `SDLControllerManager.isDeviceSDLJoystick`.
 - [x] Run build verification.
-- [x] Update backlog/task/decision/session records.
+- [x] Update backlog/task records.
 
 ## Verification
 - Tests run:
