@@ -8,6 +8,8 @@
 | `tasks/done` | `tasks/done/TASK-20260303-2292-android-arrow-keys-routing.md` | Completed implementation task | `#2292,wave-3` | `2026-03-03` |
 | `tasks/done` | `tasks/done/TASK-20260303-2392-help-version-language-runtimes.md` | Completed implementation task | `#2392,wave-4` | `2026-03-03` |
 | `tasks/done` | `tasks/done/TASK-20260303-2437-music-preview-mute-channel.md` | Completed implementation task | `#2437,wave-5` | `2026-03-03` |
+| `tasks/done` | `tasks/done/TASK-20260304-2614-sdl-stuck-keys-window-grab.md` | Completed implementation task (user-directed local closure) | `#2614,wave-8` | `2026-03-04` |
+| `tasks/done` | `tasks/done/TASK-20260304-2330-code-mouse-tab-alignment.md` | Completed implementation task (user-directed local closure) | `#2330,wave-9` | `2026-03-04` |
 | `tasks/blocked` | `tasks/blocked/TASK-20260303-2388-website-play-alphabetic-sorting.md` | Blocked task (website source not present in this repository) | `#2388,wave-6,blocked` | `2026-03-03` |
 | `tasks/blocked` | `tasks/blocked/TASK-20260303-2301-ttri-export-html-alone1.md` | Blocked task (no high-confidence localized fix in current repository context) | `#2301,wave-7,blocked` | `2026-03-04` |
 | `tasks/done` | `tasks/done/TASK-20260303-memory-governance-hot-core-cold.md` | Completed memory governance implementation task | `memory,process` | `2026-03-03` |
@@ -21,6 +23,7 @@
 | `decisions` | `decisions/DEC-20260303-post-2392-next-quickwin-order.md` | Next-wave ordering decision | `waves,#2437,#2388,#2301` | `2026-03-03` |
 | `decisions` | `decisions/DEC-20260304-2614-focus-loss-key-reset-policy.md` | SDL stuck-key mitigation policy for focus loss handling | `#2614,wave-8,sdl,input` | `2026-03-04` |
 | `decisions` | `decisions/DEC-20260304-2330-mouse-tab-visual-mapping-policy.md` | Mouse mapping policy for tab-aware visual cursor placement in code editor | `#2330,wave-9,editor,input` | `2026-03-04` |
+| `decisions` | `decisions/DEC-20260304-local-closure-without-pr-state-gating.md` | User-directed local closure policy for waves 8 and 9 regardless draft/open PR state | `process,closure,#2614,#2330` | `2026-03-04` |
 | `decisions` | `decisions/DEC-20260303-memory-governance-hot-core-cold.md` | Memory loading and layering decision | `memory,core` | `2026-03-03` |
 | `decisions` | `decisions/DEC-20260303-2437-validation-policy-ci-first.md` | Local performance constraint policy: CI-first validation | `#2437,validation,ci` | `2026-03-03` |
 | `sessions` | `sessions/2026-03-02-bootstrap.md` | Memory bootstrap log | `bootstrap` | `2026-03-02` |
@@ -38,4 +41,6 @@
 | `sessions` | `sessions/2026-03-03-2388-blocked-2301-kickoff.md` | Wave 6 blocked decision and Wave 7 kickoff log | `#2388,#2301,waves` | `2026-03-03` |
 | `sessions` | `sessions/2026-03-04-2301-blocked-2614-kickoff.md` | Wave 7 blocked decision and Wave 8 kickoff log | `#2301,#2614,waves` | `2026-03-04` |
 | `sessions` | `sessions/2026-03-04-2330-mouse-tab-alignment.md` | Wave 9 implementation session for tab-aware code editor mouse mapping | `#2330,wave-9,editor` | `2026-03-04` |
+| `sessions` | `sessions/2026-03-04-memory-refresh-local-closure-and-issue-scan.md` | Memory maintenance session (user-directed closure policy + issue intelligence capture) | `memory,process,triage` | `2026-03-04` |
 | `references` | `references/project-1.2-view1-todo-snapshot-2026-03-02.md` | TODO board snapshot source | `board,snapshot` | `2026-03-02` |
+| `references` | `references/open-issues-refresh-2026-03-04.md` | Captured open-issue intelligence from latest scan session | `issues,triage,snapshot` | `2026-03-04` |

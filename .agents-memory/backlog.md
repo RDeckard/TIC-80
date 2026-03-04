@@ -15,10 +15,13 @@ Last updated: 2026-03-04
 | BL-0007 | Execute next quick-win wave (`#2437`) | High | Done | `#2437` now tracked in `tasks/done/TASK-20260303-2437-music-preview-mute-channel.md` (PR in review, CI green) |
 | BL-0008 | Queue follow-up quick wins (`#2388` then `#2301`) | Medium | Blocked | `#2388` blocked in `tasks/blocked/TASK-20260303-2388-website-play-alphabetic-sorting.md`; `#2301` blocked in `tasks/blocked/TASK-20260303-2301-ttri-export-html-alone1.md` |
 | BL-0009 | Implement memory governance v2 (hot/core/cold + indexes) | High | Done | `tasks/done/TASK-20260303-memory-governance-hot-core-cold.md` |
-| BL-0010 | Execute SDL input reliability quick win (`#2614`) | High | Active | `#2614` tracked in `tasks/active/TASK-20260304-2614-sdl-stuck-keys-window-grab.md` |
-| BL-0011 | Implement code editor tab-aware mouse alignment quick win (`#2330`) | High | Active | `#2330` tracked in `tasks/active/TASK-20260304-2330-code-mouse-tab-alignment.md` |
+| BL-0010 | Execute SDL input reliability quick win (`#2614`) | High | Done | `#2614` in `tasks/done/TASK-20260304-2614-sdl-stuck-keys-window-grab.md` (closed locally by user directive, revisit only if requested) |
+| BL-0011 | Implement code editor tab-aware mouse alignment quick win (`#2330`) | High | Done | `#2330` in `tasks/done/TASK-20260304-2330-code-mouse-tab-alignment.md` (closed locally by user directive, revisit only if requested) |
 
 ## Rules
 - Keep this list short and actionable.
 - Each backlog item should point to one or more files in `tasks/`.
 - Update status whenever task state changes.
+
+## Latest Reference Update
+- `references/open-issues-refresh-2026-03-04.md` captures issue intelligence gathered in the latest scan session.

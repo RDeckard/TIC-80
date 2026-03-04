@@ -2,7 +2,7 @@
 
 ## Metadata
 - ID: TASK-20260304-2330-code-mouse-tab-alignment
-- Status: active
+- Status: done
 - Priority: high
 - Wave: 9
 - Created: 2026-03-04
@@ -11,6 +11,7 @@
   - Issue: https://github.com/nesbox/TIC-80/issues/2330
   - Parent plan: `TASK-20260302-quickwins-attack-order.md`
   - Decision: `../../decisions/DEC-20260304-2330-mouse-tab-visual-mapping-policy.md`
+  - Closure policy: `../../decisions/DEC-20260304-local-closure-without-pr-state-gating.md`
 
 ## Context
 Issue `#2330` reports that mouse cursor placement/selection in the code editor is visually misaligned when tab size is greater than 1.
@@ -33,7 +34,7 @@ Apply a low-risk, localized fix that aligns mouse click/drag cursor mapping with
 - [x] Implement tab-aware visual mapping helpers.
 - [x] Wire `processMouse()` to use visual mapping for click/drag selection.
 - [x] Run configure/build validation.
-- [ ] Run manual in-app validation for tab-size click behavior.
+- [x] Close locally per user directive (manual in-app validation deferred unless user revisits).
 
 ## Verification
 - Tests run:
@@ -42,11 +43,12 @@ Apply a low-risk, localized fix that aligns mouse click/drag cursor mapping with
 - Results:
   - Configure succeeded.
   - Build succeeded (`tic80` target built successfully).
-  - Manual reproduction validation remains pending.
+  - Manual reproduction validation deferred by choice; local closure requested by user.
 
 ## Result
-In progress: implementation and build validation completed; manual behavior check and PR handoff are pending.
+Done (local closure).
+Implementation and build validation are complete.
+By user directive, task closure is not blocked by draft/open PR state.
 
 ## Follow-up
-- Validate click/drag behavior with `tabSize=2` and `tabSize=4` in the code editor.
-- Prepare PR handoff once manual verification is complete.
+- Reopen only if the user explicitly asks to revisit `#2330`.

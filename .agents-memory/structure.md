@@ -68,6 +68,8 @@ Use `indexes/wave-index.md` and `indexes/cold-manifest.md` to fetch cold context
 - [ ] `structure.md` and indexes are accurate.
 
 ## Recent Additions (2026-03-04)
-- Active task record: `tasks/active/TASK-20260304-2330-code-mouse-tab-alignment.md`
-- Decision record: `decisions/DEC-20260304-2330-mouse-tab-visual-mapping-policy.md`
-- Session record: `sessions/2026-03-04-2330-mouse-tab-alignment.md`
+- Task record moved to done: `tasks/done/TASK-20260304-2614-sdl-stuck-keys-window-grab.md`
+- Task record moved to done: `tasks/done/TASK-20260304-2330-code-mouse-tab-alignment.md`
+- Decision record: `decisions/DEC-20260304-local-closure-without-pr-state-gating.md`
+- Session record: `sessions/2026-03-04-memory-refresh-local-closure-and-issue-scan.md`
+- Reference snapshot: `references/open-issues-refresh-2026-03-04.md`

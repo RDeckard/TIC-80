@@ -15,6 +15,15 @@ This repository is used to keep TIC-80 moving forward through practical, testabl
 - GitHub MCP (issues, PRs, labels, comments, search).
 - Web/curl when external verification is needed.
 
+## Priority Source of Truth (Project 1.2)
+- Priority must follow the GitHub project board: `https://github.com/users/nesbox/projects/2`.
+- Treat board columns `Todo` and `In progress` as the main queue for contribution selection.
+- Use these GitHub MCP queries as the default operational proxy:
+  - `project:"nesbox/2" is:open assignee:*` -> proxy for `In progress`
+  - `project:"nesbox/2" is:open no:assignee` -> proxy for `Todo`
+- Be explicit that this is an inference/proxy, because MCP issue search does not return board column data directly.
+- Prefer tasks from this queue even if other open issues look simpler, unless the user asks for an exception.
+
 ## Persistent Project Memory
 The [`.agents-memory/`](./.agents-memory/) directory is the persistent working memory across conversations.
 

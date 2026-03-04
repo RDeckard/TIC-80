@@ -2,7 +2,7 @@
 
 ## Metadata
 - ID: TASK-20260304-2614-sdl-stuck-keys-window-grab
-- Status: active
+- Status: done
 - Priority: high
 - Created: 2026-03-04
 - Updated: 2026-03-04
@@ -10,6 +10,7 @@
   - Issue: https://github.com/nesbox/TIC-80/issues/2614
   - Parent plan: `TASK-20260302-quickwins-attack-order.md`
   - Decision: `../../decisions/DEC-20260304-2614-focus-loss-key-reset-policy.md`
+  - Closure policy: `../../decisions/DEC-20260304-local-closure-without-pr-state-gating.md`
 
 ## Context
 After blocking Wave 7 (`#2301`) due to low-confidence standalone-export root-cause isolation, the next actionable issue is `#2614`: keyboard keys can stay logically pressed when a `KEYUP` event is missed during window-grab/focus transitions.
@@ -40,10 +41,12 @@ Apply a focused SDL-side fix that prevents stuck keyboard state after focus loss
 - Results:
   - Configure succeeded.
   - Build succeeded (`tic80` target linked successfully).
-  - Manual in-app reproduction check for stuck-key scenario remains pending.
+  - Manual in-app reproduction check remains pending by choice; local closure requested by user.
 
 ## Result
-In progress.
+Done (local closure).
+Implementation and build validation are complete.
+By user directive, task closure is not blocked by draft/open PR state.
 
 ## Follow-up
-- If completed, move this file to `../done/`.
+- Reopen only if the user explicitly asks to revisit `#2614`.
