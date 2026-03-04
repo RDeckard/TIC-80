@@ -18,6 +18,7 @@ Last updated: 2026-03-04
 | BL-0010 | Execute SDL input reliability quick win (`#2614`) | High | Done | `#2614` in `tasks/done/TASK-20260304-2614-sdl-stuck-keys-window-grab.md` (closed locally by user directive, revisit only if requested) |
 | BL-0011 | Implement code editor tab-aware mouse alignment quick win (`#2330`) | High | Done | `#2330` in `tasks/done/TASK-20260304-2330-code-mouse-tab-alignment.md` (closed locally by user directive, revisit only if requested) |
 | BL-0012 | Mitigate native export PCM regression risk (`#2615`) | High | Done | `#2615` in `tasks/done/TASK-20260304-2615-native-export-local-template-fallback.md` (local-template fallback for same-platform native export) |
+| BL-0013 | Fix macOS horizontal scroll direction (`#2855`) | High | Done | `#2855` in `tasks/done/TASK-20260304-2855-macos-horizontal-scroll-direction.md` (macOS-only `scrollx` inversion guard) |
 
 ## Rules
 - Keep this list short and actionable.

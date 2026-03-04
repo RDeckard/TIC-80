@@ -58,7 +58,7 @@ Sources:
 Actionable candidates confirmed open:
 - `#2615` (PCM channel not working on exported builds): selected for implementation with native-export local-template fallback to reduce stale-server binary risk.
 - `#2868` (HTML export blur filter): export HTML template in this repo is present and can be changed locally.
-- `#2855` (macOS horizontal scroll direction): current code still applies `scrollx *= -1` in `src/studio/studio.c`.
+- `#2855` (macOS horizontal scroll direction): scan identified unconditional `scrollx *= -1` in `src/studio/studio.c` (addressed in Wave 11).
 - `#2861` (JS `print(0.5)` crash): open with concrete repro and code pointer.
 - `#2742` (Linux install misses language libraries): open with clear build/install repro.
 
@@ -80,6 +80,7 @@ Additional context collected:
 - [x] Wave 8: `#2614` Keys getting stuck when grabbing the window. See `../done/TASK-20260304-2614-sdl-stuck-keys-window-grab.md` (closed locally by user directive).
 - [x] Wave 9: `#2330` Fix tab-aware mouse cursor/selection alignment in code editor. See `../done/TASK-20260304-2330-code-mouse-tab-alignment.md` (closed locally by user directive).
 - [x] Wave 10: `#2615` Mitigate stale native export template risk via local-template fallback. See `../done/TASK-20260304-2615-native-export-local-template-fallback.md`.
+- [x] Wave 11: `#2855` Fix macOS horizontal scroll direction by scoping `scrollx` inversion to non-macOS builds. See `../done/TASK-20260304-2855-macos-horizontal-scroll-direction.md`.
 
 ## Verification
 - Tests run:
