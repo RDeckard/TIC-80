@@ -1,6 +1,6 @@
 # .agents-memory Structure
 
-Last updated: 2026-03-04
+Last updated: 2026-06-12
 Owner: agent
 
 ## Role of This File
@@ -64,3 +64,6 @@ Use `indexes/wave-index.md` and `indexes/cold-manifest.md` to fetch cold context
 - Task record moved to done: `tasks/done/TASK-20260304-2330-code-mouse-tab-alignment.md`
 - Task record moved to done: `tasks/done/TASK-20260304-2855-macos-horizontal-scroll-direction.md`
 - Reference snapshot: `references/open-issues-refresh-2026-03-04.md`
+
+## Recent Additions (2026-06-12)
+- Follow-up task moved to done: `tasks/done/TASK-20260612-2940-code-tab-scroll-mapping.md`

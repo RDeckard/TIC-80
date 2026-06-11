@@ -13,3 +13,4 @@
 | 9 | follow-up open (`#2940`) | `#2330`, `#2940` | `tasks/active/TASK-20260302-quickwins-attack-order.md` | `tasks/done/TASK-20260304-2330-code-mouse-tab-alignment.md` |
 | 10 | open PR (`#2916`) | `#2615` | `tasks/active/TASK-20260302-quickwins-attack-order.md` | `tasks/done/TASK-20260304-2615-native-export-local-template-fallback.md` |
 | 11 | closed (merged PR `#2903`) | `#2855` | `tasks/active/TASK-20260302-quickwins-attack-order.md` | `tasks/done/TASK-20260304-2855-macos-horizontal-scroll-direction.md` |
+| 12 | ready for PR | `#2940` | `tasks/active/TASK-20260302-quickwins-attack-order.md` | `tasks/done/TASK-20260612-2940-code-tab-scroll-mapping.md` |
