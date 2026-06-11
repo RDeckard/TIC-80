@@ -125,3 +125,11 @@ After finishing an implementation, proactively offer in the conversation:
 When the implementation includes a meaningful behavioral tradeoff, include a clear reviewer question in the PR description so maintainers can explicitly decide.
 
 Do not include CI/check commands, verification summaries, or memory-tracking changes in the PR description draft.
+
+When an implementation task is completed, append the final PR text to that task file under:
+- `# PR Description`
+- `## Why`
+- `## What`
+- `## Impact` (only if meaningful)
+
+Keep this stored PR description concise, maintainer-facing, and ready for the user to reuse when opening the PR. Mention the original issue URL in `Why`, and mention follow-up context when the task fixes a regression or incomplete prior PR.

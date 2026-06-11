@@ -19,3 +19,4 @@ Use indexes before opening cold files:
 - Follow-up issue `#2940` is linked to merged PR `#2901` / issue `#2330` and should be treated as a follow-up to our tab-aware code editor mouse mapping work if revisited.
 - Branch workflow: `codex` is the private memory branch. For upstream work, investigate from `codex`, then create a clean branch from `main`, port only PR-worthy changes, commit there, push to the user's fork when requested, do not open upstream PR unless explicitly asked, then return to `codex` and update memory.
 - Keep `.agents-memory/` and private process files out of clean upstream PR branches.
+- Completed implementation task files should end with a reusable `# PR Description` section containing concise maintainer-facing `## Why`, `## What`, and optional `## Impact` text for the user to paste into the upstream PR.
