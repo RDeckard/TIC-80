@@ -54,6 +54,7 @@ PR `#2916` remains open as of 2026-06-12 and was updated with commit `27c47b4f`.
 - Monitor PR `#2916` CI and maintainer feedback.
 - Validate runtime behavior manually by exporting and checking PCM playback on same-platform native export.
 - Optionally add a user-visible note when fallback is used.
+- Follow-up comment posted: https://github.com/nesbox/TIC-80/pull/2916#issuecomment-4685885449
 
 # Draft PR Comment
 Updated the PR to make the local-template path best-effort only.
