@@ -6,10 +6,12 @@
 - Priority: high
 - Wave: 10
 - Created: 2026-03-04
-- Updated: 2026-06-11
+- Updated: 2026-06-12
 - Links (issue/PR/commit):
   - Issue: https://github.com/nesbox/TIC-80/issues/2615
-  - PR: https://github.com/nesbox/TIC-80/pull/2916 (open; comments to address later)
+  - PR: https://github.com/nesbox/TIC-80/pull/2916 (open)
+  - Branch: `fix/2615-native-export-local-template-fallback`
+  - Latest commit: `27c47b4f` (`Improve native export fallback handling`)
   - Depends-On: none
 
 ## Context
@@ -32,20 +34,23 @@ Reduce user impact from stale server export binaries by preferring the local exe
 - [x] Removed all `.agents-memory` references to the previously considered non-1.2 issue.
 - [x] Added local-template fallback in `src/studio/screens/console.c`.
 - [x] Ran `cmake -S . -B /tmp/tic80-build` and `cmake --build /tmp/tic80-build -j4`.
+- [x] Addressed PR feedback by making the local-template path fall back to server export if embed/write fails, and by limiting the fallback message to same-platform exports.
 
 ## Verification
 - Tests run:
   - `cmake -S . -B /tmp/tic80-build`
   - `cmake --build /tmp/tic80-build -j4`
+  - `git diff --check` (2026-06-12 follow-up)
 - Results:
   - Configure succeeded.
   - Build succeeded (`Built target tic80`).
+  - Follow-up diff check passed. Local full build was not rerun; this environment did not provide `cmake`, `gcc`, or `clang`, and full build validation is expected from upstream CI on the PR branch.
 
 ## Result
 Native export now first tries local executable template on matching platform (`win` on Windows, `linux` on Linux, `mac` on macOS). If local template cannot be used, existing server export path remains unchanged.
-PR `#2916` remains open as of 2026-06-11.
+PR `#2916` remains open as of 2026-06-12 and was updated with commit `27c47b4f`.
 
 ## Follow-up
-- Address PR `#2916` review comments in a separate discussion.
+- Monitor PR `#2916` CI and maintainer feedback.
 - Validate runtime behavior manually by exporting and checking PCM playback on same-platform native export.
 - Optionally add a user-visible note when fallback is used.

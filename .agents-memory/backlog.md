@@ -17,7 +17,7 @@ Last updated: 2026-06-12
 | BL-0009 | Implement memory governance v2 (hot/core/cold + indexes) | High | Done | `tasks/done/TASK-20260303-memory-governance-hot-core-cold.md` |
 | BL-0010 | Execute SDL input reliability quick win (`#2614`) | High | Done | `#2614` in `tasks/done/TASK-20260304-2614-sdl-stuck-keys-window-grab.md`; PR `#2900` merged 2026-03-12 |
 | BL-0011 | Implement code editor tab-aware mouse alignment quick win (`#2330`) | High | Follow-up open | `#2330` closed by merged PR `#2901` on 2026-05-04; follow-up issue `#2940` reports horizontal-scroll edge case |
-| BL-0012 | Mitigate native export PCM regression risk (`#2615`) | High | Open PR | `#2615` in `tasks/done/TASK-20260304-2615-native-export-local-template-fallback.md`; PR `#2916` remains open with comments to address later |
+| BL-0012 | Mitigate native export PCM regression risk (`#2615`) | High | Open PR | `#2615` in `tasks/done/TASK-20260304-2615-native-export-local-template-fallback.md`; PR `#2916` updated with follow-up commit `27c47b4f` |
 | BL-0013 | Fix macOS horizontal scroll direction (`#2855`) | High | Done | `#2855` in `tasks/done/TASK-20260304-2855-macos-horizontal-scroll-direction.md`; PR `#2903` merged 2026-05-04 |
 | BL-0014 | Fix `#2940` code editor tab mapping after horizontal scroll | High | Ready for PR | `tasks/done/TASK-20260612-2940-code-tab-scroll-mapping.md`; branch `fix/2940-code-tab-scroll-mapping` pushed at commit `47bb01ad` |
 
