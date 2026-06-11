@@ -12,7 +12,7 @@
 | `tasks/done` | `tasks/done/TASK-20260304-2330-code-mouse-tab-alignment.md` | Completed implementation task; PR `#2901` merged; follow-up `#2940` open | `#2330,#2940,wave-9,merged-pr,follow-up` | `2026-06-11` |
 | `tasks/done` | `tasks/done/TASK-20260304-2615-native-export-local-template-fallback.md` | Completed local implementation; PR `#2916` open with comments | `#2615,wave-10,open-pr` | `2026-06-11` |
 | `tasks/done` | `tasks/done/TASK-20260304-2855-macos-horizontal-scroll-direction.md` | Completed implementation task; PR `#2903` merged | `#2855,wave-11,merged-pr` | `2026-06-11` |
-| `tasks/done` | `tasks/done/TASK-20260612-2940-code-tab-scroll-mapping.md` | Completed follow-up implementation; branch pushed for PR | `#2940,wave-12,ready-for-pr` | `2026-06-12` |
+| `tasks/done` | `tasks/done/TASK-20260612-2940-code-tab-scroll-mapping.md` | Completed follow-up implementation; PR `#2957` open | `#2940,#2957,wave-12,open-pr` | `2026-06-12` |
 | `tasks/blocked` | `tasks/blocked/TASK-20260303-2388-website-play-alphabetic-sorting.md` | Blocked task (website source not present in this repository) | `#2388,wave-6,blocked` | `2026-03-03` |
 | `tasks/blocked` | `tasks/blocked/TASK-20260303-2301-ttri-export-html-alone1.md` | Blocked task (no high-confidence localized fix in current repository context) | `#2301,wave-7,blocked` | `2026-03-04` |
 | `tasks/done` | `tasks/done/TASK-20260303-memory-governance-hot-core-cold.md` | Completed memory governance implementation task | `memory,process` | `2026-03-03` |

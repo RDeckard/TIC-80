@@ -11,6 +11,7 @@
   - Issue: https://github.com/nesbox/TIC-80/issues/2940
   - Parent issue: https://github.com/nesbox/TIC-80/issues/2330
   - Parent PR: https://github.com/nesbox/TIC-80/pull/2901
+  - PR: https://github.com/nesbox/TIC-80/pull/2957 (open)
   - Branch: `fix/2940-code-tab-scroll-mapping`
   - Commit: `47bb01ad` (`Fix code editor tab width after horizontal scroll`)
   - Fork branch: https://github.com/RDeckard/TIC-80/tree/fix/2940-code-tab-scroll-mapping
@@ -50,11 +51,10 @@ Align code editor tab rendering and mouse-to-cursor mapping around one visual-co
 
 ## Result
 Clean branch is pushed and ready for the user to open an upstream PR.
-No upstream PR was opened by the agent.
+PR `#2957` is open from the branch.
 
 ## Follow-up
-- User may open a PR from `RDeckard:fix/2940-code-tab-scroll-mapping` to `nesbox:main`.
-- Suggested PR text can be generated on request.
+- Monitor PR `#2957` CI and maintainer feedback.
 
 # PR Description
 

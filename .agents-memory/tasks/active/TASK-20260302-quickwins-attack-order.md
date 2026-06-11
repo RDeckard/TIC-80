@@ -62,7 +62,7 @@ Inference used to mirror the lane quickly via API: `project:"nesbox/2" is:open a
 - [x] Wave 9: `#2330` Fix tab-aware mouse cursor/selection alignment in code editor. See `../done/TASK-20260304-2330-code-mouse-tab-alignment.md` (PR `#2901` merged 2026-05-04; follow-up `#2940` open).
 - [x] Wave 10: `#2615` Mitigate stale native export template risk via local-template fallback. See `../done/TASK-20260304-2615-native-export-local-template-fallback.md` (PR `#2916` open; comments to address later).
 - [x] Wave 11: `#2855` Fix macOS horizontal scroll direction by scoping `scrollx` inversion to non-macOS builds. See `../done/TASK-20260304-2855-macos-horizontal-scroll-direction.md` (PR `#2903` merged 2026-05-04).
-- [x] Wave 12: `#2940` Fix tab width handling after horizontal scroll in the code editor. See `../done/TASK-20260612-2940-code-tab-scroll-mapping.md` (branch `fix/2940-code-tab-scroll-mapping` pushed; PR not opened by agent).
+- [x] Wave 12: `#2940` Fix tab width handling after horizontal scroll in the code editor. See `../done/TASK-20260612-2940-code-tab-scroll-mapping.md` (PR `#2957` open from branch `fix/2940-code-tab-scroll-mapping`).
 
 ## Verification
 - Tests run:
