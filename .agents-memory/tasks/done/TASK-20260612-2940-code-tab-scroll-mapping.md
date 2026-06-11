@@ -55,3 +55,23 @@ No upstream PR was opened by the agent.
 ## Follow-up
 - User may open a PR from `RDeckard:fix/2940-code-tab-scroll-mapping` to `nesbox:main`.
 - Suggested PR text can be generated on request.
+
+# PR Description
+
+## Why
+
+Original issue: https://github.com/nesbox/TIC-80/issues/2940
+
+Follow-up to https://github.com/nesbox/TIC-80/pull/2901.
+
+The previous tab-aware mouse mapping fix handled visible tabs, but `#2940` shows a remaining mismatch after horizontal scrolling hides indentation tabs. In that case, hidden tabs could stop advancing the rendered x position by their full visual width, while mouse mapping still used visual tab columns.
+
+## What
+
+- Reuse the existing tab-column width calculation for code rendering.
+- Compute a tab's x advance before the visibility check, so offscreen tabs still affect later character positions.
+- Make `drawTab(...)` draw using the already computed visual width instead of recalculating from screen x.
+
+## Impact
+
+This should make rendering and mouse hit testing agree better when tabs are scrolled offscreen horizontally. I have not manually reproduced the exact video case, so reviewer confirmation on the `#2940` scenario would be useful.
