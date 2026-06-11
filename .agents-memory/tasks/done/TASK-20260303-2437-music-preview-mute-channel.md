@@ -5,10 +5,10 @@
 - Status: done
 - Priority: high
 - Created: 2026-03-03
-- Updated: 2026-03-03
+- Updated: 2026-06-11
 - Links (issue/PR/commit):
   - Issue: https://github.com/nesbox/TIC-80/issues/2437
-  - PR: https://github.com/nesbox/TIC-80/pull/2899 (in review, CI green as of 2026-03-03)
+  - PR: https://github.com/nesbox/TIC-80/pull/2899 (merged 2026-03-12)
 
 ## Context
 After completing the previously planned quick-win waves up to `#2392`, the next best low-risk/high-throughput issue is `#2437` (music editor note preview mute channel mismatch).
@@ -38,7 +38,8 @@ Implement and validate a focused fix for `#2437` without expanding scope to unre
   - CI pipeline on PR branch.
 - Results:
   - Static validation completed on changed code path.
-  - CI is green (review pending).
+  - CI was green before review.
+  - PR `#2899` merged upstream on 2026-03-12.
 
 ## Result
 Code fix prepared for `playNote()` channel routing:

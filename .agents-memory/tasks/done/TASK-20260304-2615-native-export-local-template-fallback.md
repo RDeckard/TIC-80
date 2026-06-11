@@ -2,14 +2,15 @@
 
 ## Metadata
 - ID: TASK-20260304-2615-native-export-local-template-fallback
-- Status: active
+- Status: done
 - Priority: high
 - Wave: 10
 - Created: 2026-03-04
-- Updated: 2026-03-04
+- Updated: 2026-06-11
 - Links (issue/PR/commit):
- - Issue: https://github.com/nesbox/TIC-80/issues/2615
- - Depends-On: none
+  - Issue: https://github.com/nesbox/TIC-80/issues/2615
+  - PR: https://github.com/nesbox/TIC-80/pull/2916 (open; comments to address later)
+  - Depends-On: none
 
 ## Context
 Issue `#2615` reports silent PCM channel in exported native builds. The maintainer confirmed stale export binaries on the server side.
@@ -42,7 +43,9 @@ Reduce user impact from stale server export binaries by preferring the local exe
 
 ## Result
 Native export now first tries local executable template on matching platform (`win` on Windows, `linux` on Linux, `mac` on macOS). If local template cannot be used, existing server export path remains unchanged.
+PR `#2916` remains open as of 2026-06-11.
 
 ## Follow-up
+- Address PR `#2916` review comments in a separate discussion.
 - Validate runtime behavior manually by exporting and checking PCM playback on same-platform native export.
 - Optionally add a user-visible note when fallback is used.

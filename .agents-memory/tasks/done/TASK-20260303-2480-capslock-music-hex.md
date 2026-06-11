@@ -5,9 +5,10 @@
 - Status: done
 - Priority: high
 - Created: 2026-03-03
-- Updated: 2026-03-03
+- Updated: 2026-06-11
 - Links (issue/PR/commit):
   - Issue: https://github.com/nesbox/TIC-80/issues/2480
+  - PR: https://github.com/nesbox/TIC-80/pull/2895 (merged 2026-03-12)
   - Parent plan: `./TASK-20260302-quickwins-attack-order.md`
 
 ## Context
@@ -44,4 +45,4 @@ Fix hex keyboard input in the music editor so both lowercase and uppercase lette
 Issue `#2480` fixed with a localized and low-risk change in `src/studio/editors/music.c`.
 
 ## Follow-up
-- Submit as focused fix PR linked to `#2480`.
+- PR `#2895` merged upstream on 2026-03-12.

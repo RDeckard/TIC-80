@@ -5,9 +5,10 @@
 - Status: done
 - Priority: high
 - Created: 2026-03-03
-- Updated: 2026-03-03
+- Updated: 2026-06-11
 - Links (issue/PR/commit):
   - Issue: https://github.com/nesbox/TIC-80/issues/2439
+  - PR: https://github.com/nesbox/TIC-80/pull/2896 (merged 2026-03-12)
   - Parent plan: `./TASK-20260302-quickwins-attack-order.md`
 
 ## Context
@@ -41,5 +42,4 @@ Prevent text character injection during `Ctrl` shortcuts while preserving normal
 Implemented a studio-level guard in `getKeyboardText` so `Ctrl` shortcuts no longer inject printable characters.
 
 ## Follow-up
-- Update `TASK-20260302-quickwins-attack-order.md` Wave 2 entry.
-- Move this task to `tasks/done/` after verification.
+- PR `#2896` merged upstream on 2026-03-12.

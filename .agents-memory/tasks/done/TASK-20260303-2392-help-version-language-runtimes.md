@@ -5,9 +5,10 @@
 - Status: done
 - Priority: medium
 - Created: 2026-03-03
-- Updated: 2026-03-03
+- Updated: 2026-06-11
 - Links (issue/PR/commit):
   - Issue: https://github.com/nesbox/TIC-80/issues/2392
+  - PR: https://github.com/nesbox/TIC-80/pull/2898 (merged 2026-03-12)
   - Parent plan: `../active/TASK-20260302-quickwins-attack-order.md`
 
 ## Context
@@ -44,3 +45,6 @@ Extend `help version` to show TIC-80 version plus per-language runtime versions 
 
 ## Result
 `help version` now provides runtime-version context for supported scripting languages in the current build, with versions sourced dynamically from vendored/runtime headers during CMake configuration.
+
+## Follow-up
+PR `#2898` merged upstream on 2026-03-12.

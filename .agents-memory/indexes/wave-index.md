@@ -9,7 +9,7 @@
 | 5 | closed | `#2437` | `tasks/active/TASK-20260302-quickwins-attack-order.md` | `tasks/done/TASK-20260303-2437-music-preview-mute-channel.md` |
 | 6 | blocked | `#2388` | `tasks/active/TASK-20260302-quickwins-attack-order.md` | `tasks/blocked/TASK-20260303-2388-website-play-alphabetic-sorting.md` |
 | 7 | blocked | `#2301` | `tasks/active/TASK-20260302-quickwins-attack-order.md` | `tasks/blocked/TASK-20260303-2301-ttri-export-html-alone1.md` |
-| 8 | closed (user-directed) | `#2614` | `tasks/active/TASK-20260302-quickwins-attack-order.md` | `tasks/done/TASK-20260304-2614-sdl-stuck-keys-window-grab.md` |
-| 9 | closed (user-directed) | `#2330` | `tasks/active/TASK-20260302-quickwins-attack-order.md` | `tasks/done/TASK-20260304-2330-code-mouse-tab-alignment.md` |
-| 10 | closed | `#2615` | `tasks/active/TASK-20260302-quickwins-attack-order.md` | `tasks/done/TASK-20260304-2615-native-export-local-template-fallback.md` |
-| 11 | closed | `#2855` | `tasks/active/TASK-20260302-quickwins-attack-order.md` | `tasks/done/TASK-20260304-2855-macos-horizontal-scroll-direction.md` |
+| 8 | closed (merged PR `#2900`) | `#2614` | `tasks/active/TASK-20260302-quickwins-attack-order.md` | `tasks/done/TASK-20260304-2614-sdl-stuck-keys-window-grab.md` |
+| 9 | follow-up open (`#2940`) | `#2330`, `#2940` | `tasks/active/TASK-20260302-quickwins-attack-order.md` | `tasks/done/TASK-20260304-2330-code-mouse-tab-alignment.md` |
+| 10 | open PR (`#2916`) | `#2615` | `tasks/active/TASK-20260302-quickwins-attack-order.md` | `tasks/done/TASK-20260304-2615-native-export-local-template-fallback.md` |
+| 11 | closed (merged PR `#2903`) | `#2855` | `tasks/active/TASK-20260302-quickwins-attack-order.md` | `tasks/done/TASK-20260304-2855-macos-horizontal-scroll-direction.md` |

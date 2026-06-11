@@ -5,9 +5,10 @@
 - Status: done
 - Priority: high
 - Created: 2026-03-02
-- Updated: 2026-03-02
+- Updated: 2026-06-11
 - Links (issue/PR/commit):
   - Issue: https://github.com/nesbox/TIC-80/issues/2478
+  - PR: https://github.com/nesbox/TIC-80/pull/2894 (merged 2026-03-12)
   - Parent execution plan: `TASK-20260302-quickwins-attack-order.md`
 
 ## Context
@@ -42,5 +43,5 @@ Document binding-specific `remap` behavior in canonical API help and keep projec
 `#2478` documentation is implemented across API help and minimal non-API surfaces with style consistency per file scope.
 
 ## Follow-up
-- Open a PR for review.
+- PR `#2894` merged upstream on 2026-03-12.
 - Continue Wave 1 with `#2480`.

@@ -6,9 +6,11 @@
 - Priority: high
 - Wave: 9
 - Created: 2026-03-04
-- Updated: 2026-03-04
+- Updated: 2026-06-11
 - Links (issue/PR/commit):
   - Issue: https://github.com/nesbox/TIC-80/issues/2330
+  - PR: https://github.com/nesbox/TIC-80/pull/2901 (merged 2026-05-04)
+  - Follow-up issue: https://github.com/nesbox/TIC-80/issues/2940
   - Parent plan: `TASK-20260302-quickwins-attack-order.md`
 
 ## Context
@@ -44,9 +46,10 @@ Apply a low-risk, localized fix that aligns mouse click/drag cursor mapping with
   - Manual reproduction validation deferred by choice; local closure requested by user.
 
 ## Result
-Done (local closure).
+Done.
 Implementation and build validation are complete.
-By user directive, task closure is not blocked by draft/open PR state.
+PR `#2901` merged upstream on 2026-05-04 and closed `#2330`.
+Follow-up issue `#2940` reports a horizontal-scroll edge case in this tab-aware mouse mapping.
 
 ## Follow-up
-- Reopen only if the user explicitly asks to revisit `#2330`.
+- Treat `#2940` as the active follow-up if this area is revisited.

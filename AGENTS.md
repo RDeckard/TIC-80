@@ -79,6 +79,20 @@ When editing source files:
 - update backlog
 - verify `structure.md` is accurate.
 
+## Branch and Commit Workflow
+The `codex` branch is the private working/memory branch. Never use it as the base branch for upstream PR work.
+
+For implementation work intended for `nesbox/TIC-80`:
+1. Use `codex` for investigation and memory-aware planning.
+2. When the fix is ready, switch to `main` and create a focused branch from `main`.
+3. Port only the upstream-worthy code/docs changes onto that clean branch.
+4. Commit on the clean branch, not on `codex`.
+5. Push the clean branch to the user's fork when asked to push.
+6. Do not open the upstream PR unless the user explicitly asks.
+7. Return to `codex` after the commit/push and update `.agents-memory/` there with branch, commit, verification, and PR-status notes.
+
+Keep `.agents-memory/` and other private process notes out of upstream PR branches.
+
 ### Wave Closure Rule
 A wave is considered closed when:
 1. all wave tasks are `done` or `blocked`

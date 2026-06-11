@@ -5,9 +5,10 @@
 - Status: done
 - Priority: high
 - Created: 2026-03-04
-- Updated: 2026-03-04
+- Updated: 2026-06-11
 - Links (issue/PR/commit):
   - Issue: https://github.com/nesbox/TIC-80/issues/2614
+  - PR: https://github.com/nesbox/TIC-80/pull/2900 (merged 2026-03-12)
   - Parent plan: `TASK-20260302-quickwins-attack-order.md`
 
 ## Context
@@ -42,9 +43,9 @@ Apply a focused SDL-side fix that prevents stuck keyboard state after focus loss
   - Manual in-app reproduction check remains pending by choice; local closure requested by user.
 
 ## Result
-Done (local closure).
+Done.
 Implementation and build validation are complete.
-By user directive, task closure is not blocked by draft/open PR state.
+PR `#2900` merged upstream on 2026-03-12.
 
 ## Follow-up
-- Reopen only if the user explicitly asks to revisit `#2614`.
+- Revisit only if a new upstream report appears.

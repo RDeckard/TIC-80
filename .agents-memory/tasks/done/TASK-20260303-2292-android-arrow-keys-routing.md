@@ -5,9 +5,10 @@
 - Status: done
 - Priority: high
 - Created: 2026-03-03
-- Updated: 2026-03-03
+- Updated: 2026-06-11
 - Links (issue/PR/commit):
   - Issue: https://github.com/nesbox/TIC-80/issues/2292
+  - PR: https://github.com/nesbox/TIC-80/pull/2897 (merged 2026-03-12)
   - Parent plan: `./TASK-20260302-quickwins-attack-order.md`
 
 ## Context
@@ -43,4 +44,5 @@ Restore arrow key behavior from external/Bluetooth keyboards on Android without 
 Implemented an Android input-classification fix to keep alphabetic external keyboards on the keyboard path, restoring arrow key handling for affected Bluetooth keyboards without changing joystick-first handling for real gamepads.
 
 ## Follow-up
+- PR `#2897` merged upstream on 2026-03-12.
 - Run Android device-level manual verification when Java/Android toolchain is available.

@@ -6,9 +6,10 @@
 - Priority: high
 - Wave: 11
 - Created: 2026-03-04
-- Updated: 2026-03-04
+- Updated: 2026-06-11
 - Links (issue/PR/commit):
   - Issue: https://github.com/nesbox/TIC-80/issues/2855
+  - PR: https://github.com/nesbox/TIC-80/pull/2903 (merged 2026-05-04)
   - Parent plan: `TASK-20260302-quickwins-attack-order.md`
   - Depends-On: none
 
@@ -44,6 +45,7 @@ Apply a low-risk, localized fix so horizontal scrolling follows expected macOS d
 ## Result
 Done.
 `scrollx` inversion now bypasses macOS builds while preserving existing non-macOS behavior.
+PR `#2903` merged upstream on 2026-05-04.
 
 ## Follow-up
 - Manual macOS behavior verification remains recommended when a macOS runtime is available.
