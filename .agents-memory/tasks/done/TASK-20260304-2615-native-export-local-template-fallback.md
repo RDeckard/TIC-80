@@ -54,3 +54,10 @@ PR `#2916` remains open as of 2026-06-12 and was updated with commit `27c47b4f`.
 - Monitor PR `#2916` CI and maintainer feedback.
 - Validate runtime behavior manually by exporting and checking PCM playback on same-platform native export.
 - Optionally add a user-visible note when fallback is used.
+
+# Draft PR Comment
+Updated the PR to make the local-template path best-effort only.
+
+If embedding or writing the local executable template fails, export now falls back to the existing server template flow instead of reporting a local export failure. The fallback message is also only shown for same-platform exports, so cross-platform exports keep the previous behavior/noise level.
+
+This is still intended as a narrow mitigation for stale same-platform server templates, not as a replacement for the server/template pipeline.
